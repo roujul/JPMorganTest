@@ -1,0 +1,106 @@
+[
+  //Instructions
+  {
+    "entity": "foo", "instructionType": "B", "currency": "GBP", "units": 200, "pricePerUnit": 100.25, "agreedFx": 0.5,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 2 }
+  },
+  {
+    "entity": "bar", "instructionType": "S", "currency": "AED", "units": 450, "pricePerUnit": 150.5, "agreedFx": 0.22,
+    "instructionDate": { "year": 2016, "month": 1, "day": 5 }, "settlementDate": { "year": 2016, "month": 1, "day": 7 }
+  },
+
+  // Other tests
+
+  // FOO
+  {
+    "entity": "foo", "instructionType": "S", "currency": "GBP", "units": 100, "pricePerUnit": 125.5, "agreedFx": 0.5,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 2 }
+  },
+  {
+    "entity": "foo", "instructionType": "S", "currency": "GBP", "units": 200, "pricePerUnit": 115.5, "agreedFx": 0.5,
+    "instructionDate": { "year": 2016, "month": 1, "day": 2 }, "settlementDate": { "year": 2016,  "month": 1, "day": 3 }
+  },
+  {
+    "entity": "foo", "instructionType": "S", "currency": "GBP", "units": 300, "pricePerUnit": 105.5, "agreedFx": 0.5,
+    "instructionDate": { "year": 2016, "month": 1, "day": 3 }, "settlementDate": { "year": 2016,  "month": 1, "day": 4 }
+  },
+  {
+    "entity": "foo", "instructionType": "B", "currency": "CHF", "units": 125, "pricePerUnit": 55.25, "agreedFx": 1.2,
+    "instructionDate": { "year": 2016, "month": 1, "day": 5 }, "settlementDate": { "year": 2016,  "month": 1, "day": 6 }
+  },
+  {
+    "entity": "foo", "instructionType": "B", "currency": "CAD", "units": 25, "pricePerUnit": 600.32, "agreedFx": 0.8,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 2 }
+  },
+
+
+  // BAR
+  {
+    "entity": "bar", "instructionType": "B", "currency": "CHF", "units": 10, "pricePerUnit": 600.50, "agreedFx": 0.5,
+    "instructionDate": { "year": 2016, "month": 1, "day": 7 }, "settlementDate": { "year": 2016,  "month": 1, "day": 8}
+  },
+  {
+    "entity": "bar", "instructionType": "B", "currency": "EUR", "units": 100, "pricePerUnit": 20.37, "agreedFx": 0.82,
+    "instructionDate": { "year": 2016, "month": 1, "day": 12 }, "settlementDate": { "year": 2016,  "month": 1, "day": 18}
+  },
+  {
+    "entity": "bar", "instructionType": "B", "currency": "CHF", "units": 10, "pricePerUnit": 600.50, "agreedFx": 0.5,
+    "instructionDate": { "year": 2016, "month": 1, "day": 7 }, "settlementDate": { "year": 2016,  "month": 1, "day": 8}
+  },
+  {
+    "entity": "bar", "instructionType": "S", "currency": "GBP", "units": 26, "pricePerUnit": 32.15, "agreedFx": 0.6,
+    "instructionDate": { "year": 2016, "month": 1, "day": 12 }, "settlementDate": { "year": 2016,  "month": 1, "day": 14}
+  },
+  {
+    "entity": "bar", "instructionType": "S", "currency": "EUR", "units": 26, "pricePerUnit": 64.31, "agreedFx": 1.6,
+    "instructionDate": { "year": 2016, "month": 1, "day": 11 }, "settlementDate": { "year": 2016,  "month": 1, "day": 12}
+  },
+
+  // SMW
+  {
+    "entity": "smw", "instructionType": "B", "currency": "GBP", "units": 32, "pricePerUnit": 100.37, "agreedFx": 0.8,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 12}
+  },
+  {
+    "entity": "smw", "instructionType": "B", "currency": "GBP", "units": 64, "pricePerUnit": 26.34, "agreedFx": 0.9,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 13}
+  },
+  {
+    "entity": "smw", "instructionType": "B", "currency": "GBP", "units": 128, "pricePerUnit": 32.56, "agreedFx": 1,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 14}
+  },
+  {
+    "entity": "smw", "instructionType": "B", "currency": "AED", "units": 128, "pricePerUnit": 32.56, "agreedFx": 1,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 14}
+  },
+
+  // JRX
+  {
+    "entity": "jrx", "instructionType": "B", "currency": "AED", "units": 10, "pricePerUnit": 20, "agreedFx": 2,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 10}
+  },
+  {
+    "entity": "jrx", "instructionType": "B", "currency": "SAR", "units": 20, "pricePerUnit": 20, "agreedFx": 2,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 11}
+  },
+  {
+    "entity": "jrx", "instructionType": "B", "currency": "AED", "units": 30, "pricePerUnit": 20, "agreedFx": 2,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 12}
+  },
+  {
+    "entity": "jrx", "instructionType": "B", "currency": "AED", "units": 40, "pricePerUnit": 20, "agreedFx": 2,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 13}
+  },
+  {
+    "entity": "jrx", "instructionType": "B", "currency": "AED", "units": 50, "pricePerUnit": 20, "agreedFx": 2,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 14}
+  },
+  {
+    "entity": "jrx", "instructionType": "B", "currency": "AED", "units": 60, "pricePerUnit": 20, "agreedFx": 2,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 15}
+  },
+  {
+    "entity": "jrx", "instructionType": "B", "currency": "AED", "units": 10, "pricePerUnit": 20, "agreedFx": 2,
+    "instructionDate": { "year": 2016, "month": 1, "day": 1 }, "settlementDate": { "year": 2016,  "month": 1, "day": 14}
+  }
+]
